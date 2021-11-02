@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/frozen_tremors.unity
+    guid: 3ddfc4e62b1d53443a53d3b6d75d5ec9
   m_configObjects: {}
