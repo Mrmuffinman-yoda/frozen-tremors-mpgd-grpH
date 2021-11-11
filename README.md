@@ -4,6 +4,8 @@ Welcome to our game Frozen Tremors where you will be trying to fix your spaceshi
 Your Objectives:
  - find items to fix spaceship 
  - stay away from the monster 
+
+
 To find the items to fix your spaceship , you must complete a series of parkour challenges to get the item at the end!
 you must explore the map to find the three parkour spots to get the items and avoid the monster.
 Collect the items at the top of the parkour and bring it back to the ship to repair it.
