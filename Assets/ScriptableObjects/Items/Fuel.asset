@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98e7f2809e92a4b40826dd7229614236, type: 3}
   m_Name: Fuel
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 6424122925463854371, guid: 2396c14e0061b8a4796c2f220ee5946d, type: 3}
   type: 2
