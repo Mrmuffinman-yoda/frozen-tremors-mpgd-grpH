@@ -6,7 +6,6 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public InventoryObject inventory;
-    public Image inventoryDisplay;
     public int itemDistance = 5;
     // Start is called before the first frame update
 
@@ -36,6 +35,7 @@ public class Inventory : MonoBehaviour
                 }
             }
             if(hit.transform.tag == "base"){
+                Debug.Log("hit");
                 if(Input.GetMouseButtonDown(0)){
                     ScoreScript.itemsCollected += inventory.Container.Count;
                     inventory.Container = new List<InventorySlot>();

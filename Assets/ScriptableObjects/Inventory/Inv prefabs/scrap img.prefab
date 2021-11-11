@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6424122925463854371, guid: 2396c14e0061b8a4796c2f220ee5946d, type: 3}
       propertyPath: m_Name
-      value: Image Variant
+      value: scrap img
       objectReference: {fileID: 0}
     - target: {fileID: 8121252083381049827, guid: 2396c14e0061b8a4796c2f220ee5946d, type: 3}
       propertyPath: m_Pivot.x
@@ -49,7 +49,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8121252083381049827, guid: 2396c14e0061b8a4796c2f220ee5946d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 152.712
+      value: 99.6287
       objectReference: {fileID: 0}
     - target: {fileID: 8121252083381049827, guid: 2396c14e0061b8a4796c2f220ee5946d, type: 3}
       propertyPath: m_SizeDelta.y
@@ -85,7 +85,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8121252083381049827, guid: 2396c14e0061b8a4796c2f220ee5946d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -113.9
+      value: -130.4259
       objectReference: {fileID: 0}
     - target: {fileID: 8121252083381049827, guid: 2396c14e0061b8a4796c2f220ee5946d, type: 3}
       propertyPath: m_AnchoredPosition.y
