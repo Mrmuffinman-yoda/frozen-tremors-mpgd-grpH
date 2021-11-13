@@ -10,3 +10,7 @@ To find the items to fix your spaceship , you must complete a series of parkour 
 you must explore the map to find the three parkour spots to get the items and avoid the monster.
 Collect the items at the top of the parkour and bring it back to the ship to repair it.
 Click the item to pick it up then click the rectangle next to the ship to put it down.
+
+Free External assets used :
+https://assetstore.unity.com/packages/2d/textures-materials/floors/terrain-textures-snow-free-samples-54630
+https://assetstore.unity.com/packages/3d/vegetation/trees/snowy-low-poly-trees-76796
