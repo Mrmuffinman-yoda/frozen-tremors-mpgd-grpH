@@ -360,6 +360,7 @@ namespace Ludiq.Generated.Aot
 	// UnityEngine.HingeJoint2D.op_Implicit
 	// UnityEngine.HingeJoint2D.op_Inequality
 	// UnityEngine.Input.GetAxis
+	// UnityEngine.Input.GetKey
 	// UnityEngine.Input.GetKeyDown
 	// UnityEngine.Joint.op_Equality
 	// UnityEngine.Joint.op_Implicit
@@ -5063,6 +5064,17 @@ namespace Ludiq.Generated.Aot
 			string arg0 = default(string);
 			global::UnityEngine.Input.GetAxis(arg0);
 			global::Ludiq.StaticFunctionInvoker<string, float> optimized = new global::Ludiq.StaticFunctionInvoker<string, float>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.Input.GetKey
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Input_GetKey()
+		{
+			global::UnityEngine.KeyCode arg0 = default(global::UnityEngine.KeyCode);
+			global::UnityEngine.Input.GetKey(arg0);
+			global::Ludiq.StaticFunctionInvoker<UnityEngine.KeyCode, bool> optimized = new global::Ludiq.StaticFunctionInvoker<UnityEngine.KeyCode, bool>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(null, arg0);
 			optimized.Invoke(default(object[]));
 		}
