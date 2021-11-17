@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/frozen_tremors.unity
+    path: Assets/Scenes/Menu.unity
+    guid: d5169c190daa57b49ad8d1a2fb76aecb
+  - enabled: 1
+    path: Assets/Scenes/main.unity
     guid: 3ddfc4e62b1d53443a53d3b6d75d5ec9
   m_configObjects: {}
