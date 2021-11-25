@@ -4,24 +4,41 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private GameObject playerGO;
-    private Vector3 monsSpawnv3;
-    [SerializeField] GameObject prefab;
+
+    [SerializeField] private HealthBar hb;
+    private int maxHealth = 100;
+    private int currentHealth = -1;
+    private int minHealth = 5;
 
     void Start()
     {
+        hb.setMaxHealth(maxHealth);
+        currentHealth = maxHealth; //Start game with maximum health
         
-        //prefab = Resources.Load("Assets/Monster") as GameObject;
-
-        playerGO = GameObject.Find("Player");
-        //GameObject testGO = Instantiate(prefab) as GameObject;
-        GameObject testGO =  Instantiate(prefab, playerGO.transform.position, Quaternion.identity) as GameObject;
-
-        Debug.Log(testGO.transform.position);
     }
 
     private void Update()
     {
+        if (currentHealth < minHealth)
+        {
+            //End the game or something?
+        }
+
+        //TO CHANGE HEALTHBAR VALUES
+        //
+        //Call takeDamage or addHealth as required
         
+    }
+
+    private void takeDamage(int amount)
+    {
+        currentHealth -= amount;
+        hb.setHealth(currentHealth);
+    }
+
+    private void addHealth(int amount)
+    {
+        currentHealth += amount;
+        hb.setHealth(currentHealth);
     }
 }
