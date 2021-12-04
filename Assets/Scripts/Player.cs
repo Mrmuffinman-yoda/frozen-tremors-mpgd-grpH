@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
         }
 
 
-        ob.udpate();
+        //ob.udpate(); //NG commented out, causes exception at runtime, null ref err
         //TO CHANGE HEALTHBAR VALUES
         //
         //Call takeDamage or addHealth as required

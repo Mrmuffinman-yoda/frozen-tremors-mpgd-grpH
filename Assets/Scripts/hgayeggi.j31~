@@ -1,0 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Monster : MonoBehaviour
+{
+    private int updateCount=1;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    //Update 100no./s regardless of fps
+    private void FixedUpdate()
+    {
+        updateCount += 1;
+        if (updateCount == 30) //Trigger event every second
+        {
+            updateCount = 1; //Reset back to original, otherwise won't trigger every 1 sec
+            Debug.Log("This message should appear approx. every 1/2 sec");
+        }
+    }
+}
