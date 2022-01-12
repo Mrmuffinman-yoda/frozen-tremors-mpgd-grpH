@@ -12,5 +12,9 @@ Collect the items at the top of the parkour and bring it back to the ship to rep
 Click the item to pick it up then click the rectangle next to the ship to put it down.
 
 Free External assets used :
-https://assetstore.unity.com/packages/2d/textures-materials/floors/terrain-textures-snow-free-samples-54630
-https://assetstore.unity.com/packages/3d/vegetation/trees/snowy-low-poly-trees-76796
+- Player model : https://www.mixamo.com/#/?page=1&query=ybot&type=Character
+- Friendly Alien Model: https://assetstore.unity.com/packages/3d/characters/humanoids/monster-orc-146616
+- Animations used :
+ -
+ -
+ -
