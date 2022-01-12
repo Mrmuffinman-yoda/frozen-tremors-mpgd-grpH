@@ -13,7 +13,7 @@ Click the item to pick it up then click the rectangle next to the ship to put it
 
 Free External assets used :
 - Player model : https://www.mixamo.com/#/?page=1&query=ybot&type=Character
-- Fox Model :https://assetstore.unity.com/packages/3d/characters/animals/toon-fox-183005
+- Friendly Alien Model: https://assetstore.unity.com/packages/3d/characters/humanoids/monster-orc-146616
 - Animations used :
  -
  -
