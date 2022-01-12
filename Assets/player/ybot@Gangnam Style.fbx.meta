@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d43565aeadb8ba947bad900ef1deab96
+guid: cefb35cba943dff44b56123c813406db
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable:
@@ -75,12 +75,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - cefb35cba943dff44b56123c813406db
-  - c705d77b75398ee4abc9c1962cd7cf4a
-  - 10b3796171cc54f4a9ed26973dfd7969
-  - 4fc9a3f672cb54946bafc4a53423d173
-  - d9785813f2dcc2d4dbef3f8f244da443
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
@@ -864,11 +859,11 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: d43565aeadb8ba947bad900ef1deab96, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
