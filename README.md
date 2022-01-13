@@ -23,3 +23,5 @@ Free External assets used :
 - Spaceship Internals : https://assetstore.unity.com/packages/3d/environments/sci-fi/free-sci-fi-office-pack-195067
 - Spaceship Internal sounds : https://assetstore.unity.com/packages/audio/sound-fx/retro-sci-fi-pack-61781
 - Map assets (Sci-Fi boxes) : https://assetstore.unity.com/packages/3d/props/lowpoly-sci-fi-crates-free-146016
+- Contd. : https://assetstore.unity.com/packages/3d/characters/robots/sci-fi-drones-90326
+- Contd. : https://assetstore.unity.com/packages/3d/props/scifi-handlight-free-hq-lowpoly-pbr-53498
