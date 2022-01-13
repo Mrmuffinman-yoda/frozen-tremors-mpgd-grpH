@@ -30,7 +30,7 @@ public class Monster : MonoBehaviour
             {
                 if (fireSnowball())
                 {
-                    Debug.Log("Snowball fired");
+                  //  Debug.Log("Snowball fired");
                 }
             }
         }

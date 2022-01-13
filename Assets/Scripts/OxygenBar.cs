@@ -36,16 +36,18 @@ public class OxygenBar : MonoBehaviour
         setOxygen(oxygen);
     }*/
     public void udpate(){
+        //Debug.Log("is in update");
         bool timer = true;
 
         if(timer){
+            //Debug.Log("is in timer");
             if(oxygenVal >= 0){
                 oxygenVal -= Time.deltaTime;
                 fill.color = gradient.Evaluate(slider.normalizedValue);
                 oxygenBarValue.text = ((int)oxygenVal).ToString() + "%"; 
+                Debug.Log(oxygenVal);
             }
             else{
-                
                 timer = false;
             }  
         }
