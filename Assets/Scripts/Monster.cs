@@ -9,7 +9,9 @@ public class Monster : MonoBehaviour
     [SerializeField] protected int sensitivityVal = 20; //The higher val is, the more sensitive monster will be
     [SerializeField] protected int monsterMovementSpeed = 3; //The higher val is, the faster the monster will move around the map
     [SerializeField] protected float monsterCatchup = 0.25f; //Higher the val us, the quicker monster will catchup to the player
-    
+    [SerializeField] private GameObject snowball;
+    [SerializeField] private float snowballSpeed = 0.4f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -26,14 +28,23 @@ public class Monster : MonoBehaviour
             updateCount = 1; //Reset back to original, otherwise won't trigger every 1/4 sec
             if (isPlayerNearby())
             {
-                //moveMonster(0, -1, 0);
-                followPlayer();
+                if (fireSnowball())
+                {
+                    Debug.Log("Snowball fired");
+                }
             }
         }
     }
 
-    private bool fireDagger() //Fires a dagger than inflicts damage on the player
+    private bool fireSnowball() //Fires a dagger than inflicts damage on the player
     {
+        Vector3 playerPos = p.transform.position;
+
+        GameObject newSnowball = GameObject.Instantiate(snowball); //Init new snowball to fire at player
+        newSnowball.transform.position = this.transform.position; //Put snowball inside monster ready to fire
+
+        newSnowball.transform.position += Vector3.left * 1 * Time.deltaTime;
+
         return true;
     }
 
