@@ -36,3 +36,4 @@ sysinfo.txt
 *.unitypackage
 Assets/Scenes/Nathan.unity
 Assets/Scenes/Nathan.unity.meta
+*.log
