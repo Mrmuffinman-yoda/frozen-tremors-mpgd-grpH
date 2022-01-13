@@ -6,7 +6,9 @@ using UnityEngine;
 public enum ItemType{
     Scrap,
     Tool,
-    Fuel
+    Fuel,
+    Antenna,
+    Airlock
 }
 public abstract class ItemObject : ScriptableObject 
 {
