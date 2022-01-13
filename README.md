@@ -22,3 +22,4 @@ Free External assets used :
 - Ambience : https://assetstore.unity.com/packages/audio/sound-fx/nature-sound-fx-180413
 - Spaceship Internals : https://assetstore.unity.com/packages/3d/environments/sci-fi/free-sci-fi-office-pack-195067
 - Spaceship Internal sounds : https://assetstore.unity.com/packages/audio/sound-fx/retro-sci-fi-pack-61781
+- Map assets (Sci-Fi boxes) : https://assetstore.unity.com/packages/3d/props/lowpoly-sci-fi-crates-free-146016
