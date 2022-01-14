@@ -22,3 +22,4 @@ Free External assets used :
 - Contd. : https://assetstore.unity.com/packages/3d/props/scifi-handlight-free-hq-lowpoly-pbr-53498
 - cave : https://assetstore.unity.com/packages/3d/small-cave-kit-49372
 - Intro Song : https://www.youtube.com/watch?v=wrBEF3QLwCo
+- Heart beat sound : https://www.youtube.com/watch?v=EgDh70tRXHE&t=0s
