@@ -13,7 +13,7 @@ Click the item to pick it up then click the rectangle next to the ship to put it
 
 Free External assets used :
 - Player model : https://www.mixamo.com/#/?page=1&query=ybot&type=Character
-- Friendly Alien Model: https://assetstore.unity.com/packages/3d/characters/humanoids/monster-orc-146616
+- monster: https://assetstore.unity.com/packages/3d/characters/humanoids/monster-orc-146616
 - trees : https://assetstore.unity.com/packages/3d/vegetation/trees/conifers-botd-142076
 - Ambience : https://assetstore.unity.com/packages/audio/sound-fx/nature-sound-fx-180413
 - Spaceship Internals : https://assetstore.unity.com/packages/3d/environments/sci-fi/free-sci-fi-office-pack-195067
