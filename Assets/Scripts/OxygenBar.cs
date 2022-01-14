@@ -2,15 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class OxygenBar : MonoBehaviour
 {
     [SerializeField] private Slider slider;
     [SerializeField] private Gradient gradient;
     [SerializeField] private Image fill;
-    [SerializeField] private Text oxygenBarValue;
-    private int upperOxygenBound= 100;
-    private int lowerOxygenBound = 0;
+    public Text oxygenBarValue;
 
     public float oxygenVal;
 
@@ -23,10 +22,10 @@ public class OxygenBar : MonoBehaviour
         {
             throw new System.ArgumentException("Cannot set oxygen to more than " + upperOxygenBound.ToString());
         }*/
-        oxygenVal = 100;
+        oxygenVal = 300;
         slider.value = oxygenVal;
         fill.color = gradient.Evaluate(slider.normalizedValue);
-        oxygenBarValue.text = oxygenVal.ToString() + "%";
+        oxygenBarValue.text = oxygenVal.ToString() + "cm3";
         
     }
 
@@ -44,11 +43,11 @@ public class OxygenBar : MonoBehaviour
             if(oxygenVal >= 0){
                 oxygenVal -= Time.deltaTime;
                 fill.color = gradient.Evaluate(slider.normalizedValue);
-                oxygenBarValue.text = ((int)oxygenVal).ToString() + "%"; 
+                oxygenBarValue.text = ((int)oxygenVal).ToString() + "cm3"; 
                 Debug.Log(oxygenVal);
             }
             else{
-                timer = false;
+                SceneManager.LoadScene("loss");                
             }  
         }
         

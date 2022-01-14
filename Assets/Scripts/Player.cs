@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
 
     //[SerializeField] private HealthBar hb;
-    [SerializeField] private OxygenBar ob;
+    public OxygenBar ob;
     //private int maxHealth = 100;
     //private int currentHealth = -1;
     //private int minHealth = 5;
@@ -19,12 +19,12 @@ public class Player : MonoBehaviour
         
     }
 
-    private void Update()
+    public void Update()
     {
-        // if (currentHealth < minHealth)
-        // {
-        //     //End the game or something?
-        // }
+         if (ob.oxygenBarValue.Equals("0"))
+         {
+            SceneManager.LoadScene("loss");
+         }
 
 
         ob.udpate(); 
