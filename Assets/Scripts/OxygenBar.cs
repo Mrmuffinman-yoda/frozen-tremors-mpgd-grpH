@@ -22,7 +22,7 @@ public class OxygenBar : MonoBehaviour
         {
             throw new System.ArgumentException("Cannot set oxygen to more than " + upperOxygenBound.ToString());
         }*/
-        oxygenVal = 300;
+        oxygenVal = 900;
         slider.value = oxygenVal;
         fill.color = gradient.Evaluate(slider.normalizedValue);
         oxygenBarValue.text = oxygenVal.ToString() + "cm3";
